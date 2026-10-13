@@ -1,0 +1,310 @@
+[
+  {
+    "article_id": "BIL-001",
+    "title": "Duplicate Charge",
+    "page": 3,
+    "chunk_id": "BIL-001-CHUNK-001",
+    "text": "Category: Billing\nScenario: Customer reports being charged twice for the same transaction.\nProcedure: Verify customer and transaction details; compare dates and amounts; determine whether charges are duplicates; follow correction/refund process.\nEscalation: Escalate if transaction cannot be validated.\nSearch aliases: charged twice|double charge|duplicate payment"
+  },
+  {
+    "article_id": "BIL-002",
+    "title": "Refund Status",
+    "page": 3,
+    "chunk_id": "BIL-002-CHUNK-001",
+    "text": "Category: Billing\nScenario: Customer asks when an approved refund will be received.\nProcedure: Verify refund reference; check status; communicate applicable processing timeframe.\nEscalation: Escalate if refund exceeds approved timeframe.\nSearch aliases: refund pending|refund status|where is my refund"
+  },
+  {
+    "article_id": "BIL-003",
+    "title": "Payment Failed",
+    "page": 3,
+    "chunk_id": "BIL-003-CHUNK-001",
+    "text": "Category: Billing\nScenario: A payment attempt failed.\nProcedure: Verify transaction status; review approved failure reason; follow payment-retry procedure.\nEscalation: Escalate if funds appear deducted despite failed status or status is inconsistent.\nSearch aliases: payment failed|payment declined|transaction failed"
+  },
+  {
+    "article_id": "BIL-004",
+    "title": "Unexpected Billing Amount",
+    "page": 3,
+    "chunk_id": "BIL-004-CHUNK-001",
+    "text": "Category: Billing\nScenario: Customer says billed amount differs from what they expected.\nProcedure: Verify invoice/transaction; compare amount with applicable plan/service details; explain supported information.\nEscalation: Escalate if amount cannot be reconciled.\nSearch aliases: wrong amount|unexpected charge|billing discrepancy"
+  },
+  {
+    "article_id": "BIL-005",
+    "title": "Invoice Copy Request",
+    "page": 4,
+    "chunk_id": "BIL-005-CHUNK-001",
+    "text": "Category: Billing\nScenario: Customer needs a copy of an invoice.\nProcedure: Verify identity; locate invoice; provide or direct to approved invoice-access method.\nEscalation: Escalate if invoice cannot be located.\nSearch aliases: invoice copy|billing statement|receipt"
+  },
+  {
+    "article_id": "BIL-006",
+    "title": "Payment Reversal",
+    "page": 4,
+    "chunk_id": "BIL-006-CHUNK-001",
+    "text": "Category: Billing\nScenario: Customer says a payment was reversed or returned.\nProcedure: Verify payment record; review reversal reason; explain approved next payment step.\nEscalation: Escalate if reason is unavailable or disputed.\nSearch aliases: payment reversed|payment returned|reversal"
+  },
+  {
+    "article_id": "CLM-001",
+    "title": "Claim Denied but Policy Was Active",
+    "page": 1,
+    "chunk_id": "CLM-001-CHUNK-001",
+    "text": "Category: Claims\nScenario: Customer says a claim was denied even though coverage was active on the date of service.\nProcedure: Verify member; check effective and termination dates; verify date of service; review denial reason; follow approved reconsideration workflow.\nEscalation: Escalate if eligibility conflicts or the denial cannot be resolved by the approved process.\nSearch aliases: claim denied|rejected claim|coverage active|policy active|date of service"
+  },
+  {
+    "article_id": "CLM-002",
+    "title": "How to Check Claim Status",
+    "page": 1,
+    "chunk_id": "CLM-002-CHUNK-001",
+    "text": "Category: Claims\nScenario: Customer wants the current status of a submitted claim.\nProcedure: Verify identity and claim details; review latest status and status date; explain using approved terminology.\nEscalation: Escalate if beyond the applicable processing timeframe or status is inconsistent.\nSearch aliases: claim status|claim update|where is my claim|claim pending"
+  },
+  {
+    "article_id": "CLM-003",
+    "title": "Claim Reconsideration Request",
+    "page": 1,
+    "chunk_id": "CLM-003-CHUNK-001",
+    "text": "Category: Claims\nScenario: Customer asks for a previously denied claim to be reviewed again.\nProcedure: Verify claim number; review denial reason; determine whether reconsideration is permitted; collect required information; submit through approved workflow.\nEscalation: Escalate if outside the standard reconsideration process.\nSearch aliases: appeal claim|reconsideration|review denied claim|challenge denial"
+  },
+  {
+    "article_id": "CLM-004",
+    "title": "Duplicate Claim",
+    "page": 1,
+    "chunk_id": "CLM-004-CHUNK-001",
+    "text": "Category: Claims\nScenario: The same service may have been submitted more than once.\nProcedure: Verify claim numbers, provider, amount and date of service; compare records; follow duplicate-claim procedure.\nEscalation: Escalate when duplicate status cannot be determined.\nSearch aliases: duplicate claim|same claim twice|duplicate submission"
+  },
+  {
+    "article_id": "CLM-005",
+    "title": "Missing Claim Information",
+    "page": 1,
+    "chunk_id": "CLM-005-CHUNK-001",
+    "text": "Category: Claims\nScenario: A claim cannot be processed because required information is missing.\nProcedure: Identify missing information; explain what is required; document interaction; follow approved resubmission process.\nEscalation: Escalate if required fields cannot be updated or records conflict."
+  },
+  {
+    "article_id": "CLM-006",
+    "title": "Incorrect Date of Service",
+    "page": 2,
+    "chunk_id": "CLM-006-CHUNK-001",
+    "text": "Category: Claims\nScenario: Customer reports the date of service on a claim is incorrect.\nProcedure: Verify claim/member details; compare reported date with records; follow correction or resubmission process.\nEscalation: Escalate if the correct date cannot be validated.\nSearch aliases: wrong service date|date correction|claim date"
+  },
+  {
+    "article_id": "COM-001",
+    "title": "Customer Requests a Supervisor",
+    "page": 7,
+    "chunk_id": "COM-001-CHUNK-001",
+    "text": "Category: Communication\nScenario: Customer explicitly asks to speak with a supervisor.\nProcedure: Acknowledge request; understand reason; follow supervisor-escalation process; document.\nEscalation: Transfer/escalate according to policy.\nSearch aliases: speak to manager|supervisor request|manager request"
+  },
+  {
+    "article_id": "COM-002",
+    "title": "Customer Is Frustrated",
+    "page": 7,
+    "chunk_id": "COM-002-CHUNK-001",
+    "text": "Category: Communication\nScenario: Customer is upset or repeatedly explains the same problem.\nProcedure: Acknowledge concern; listen; summarize issue; explain next actionable step using approved information.\nEscalation: Escalate if requested or if criteria are met.\nSearch aliases: angry customer|frustrated customer|customer upset|de-escalation"
+  },
+  {
+    "article_id": "COM-003",
+    "title": "Customer Requests a Policy Exception",
+    "page": 7,
+    "chunk_id": "COM-003-CHUNK-001",
+    "text": "Category: Communication\nScenario: Customer requests an exception to a standard rule.\nProcedure: Clarify request; explain standard process; do not promise exception; check approved exception path.\nEscalation: Escalate when authorized exception decision is required.\nSearch aliases: policy exception|special request|override"
+  },
+  {
+    "article_id": "COM-004",
+    "title": "Customer Wants Immediate Resolution",
+    "page": 8,
+    "chunk_id": "COM-004-CHUNK-001",
+    "text": "Category: Communication\nScenario: Customer demands an outcome that requires processing time or another team.\nProcedure: Explain what can be completed now; provide approved next step/timeframe; avoid unsupported promises.\nEscalation: Escalate if approved urgent criteria apply.\nSearch aliases: immediate resolution|urgent customer|need it now"
+  },
+  {
+    "article_id": "ELG-001",
+    "title": "Check Eligibility on a Specific Date",
+    "page": 2,
+    "chunk_id": "ELG-001-CHUNK-001",
+    "text": "Category: Eligibility\nScenario: Agent needs to determine whether a member was covered on a particular date.\nProcedure: Verify identity; check effective date; check termination date; compare dates with the date being investigated.\nEscalation: Escalate if approved systems show conflicting eligibility.\nSearch aliases: eligibility check|covered on date|coverage verification|active coverage"
+  },
+  {
+    "article_id": "ELG-002",
+    "title": "Policy Shows Inactive",
+    "page": 2,
+    "chunk_id": "ELG-002-CHUNK-001",
+    "text": "Category: Eligibility\nScenario: Customer says coverage should be active but the system shows inactive.\nProcedure: Verify identity; review dates; check recent updates; follow approved status-correction process.\nEscalation: Escalate when status cannot be reconciled.\nSearch aliases: inactive policy|coverage inactive|should be active|policy status"
+  },
+  {
+    "article_id": "ELG-003",
+    "title": "Coverage Effective Date",
+    "page": 2,
+    "chunk_id": "ELG-003-CHUNK-001",
+    "text": "Category: Eligibility\nScenario: Customer asks when coverage started.\nProcedure: Verify identity; retrieve policy record; confirm effective date; communicate approved information.\nEscalation: Escalate if date is missing or inconsistent.\nSearch aliases: coverage start date|effective date|when coverage started"
+  },
+  {
+    "article_id": "ELG-004",
+    "title": "Coverage Termination Date",
+    "page": 2,
+    "chunk_id": "ELG-004-CHUNK-001",
+    "text": "Category: Eligibility\nScenario: Customer asks when coverage ended.\nProcedure: Verify identity; retrieve policy record; confirm termination date when available.\nEscalation: Escalate if records conflict or termination information is unavailable.\nSearch aliases: coverage end date|termination date|when coverage ended"
+  },
+  {
+    "article_id": "ELG-005",
+    "title": "Eligibility System Mismatch",
+    "page": 2,
+    "chunk_id": "ELG-005-CHUNK-001",
+    "text": "Category: Eligibility"
+  },
+  {
+    "article_id": "ELG-006",
+    "title": "Dependent Eligibility",
+    "page": 3,
+    "chunk_id": "ELG-006-CHUNK-001",
+    "text": "Category: Eligibility\nScenario: Customer asks whether a dependent is currently covered.\nProcedure: Verify member/dependent details; check dependent coverage dates; provide permitted information.\nEscalation: Escalate if dependent record is missing or inconsistent.\nSearch aliases: dependent coverage|child eligibility|dependent active"
+  },
+  {
+    "article_id": "ENR-001",
+    "title": "New Enrollment Request",
+    "page": 4,
+    "chunk_id": "ENR-001-CHUNK-001",
+    "text": "Category: Enrollment\nScenario: Customer wants to enroll in an available plan or service.\nProcedure: Verify eligibility; explain approved options; collect required details; complete enrollment workflow.\nEscalation: Escalate if eligibility cannot be verified or system is unavailable.\nSearch aliases: enroll|new enrollment|sign up|join plan"
+  },
+  {
+    "article_id": "ENR-002",
+    "title": "Enrollment Status",
+    "page": 4,
+    "chunk_id": "ENR-002-CHUNK-001",
+    "text": "Category: Enrollment\nScenario: Customer asks whether a recent enrollment request was completed.\nProcedure: Verify identity; locate record; check status; communicate current status and next step.\nEscalation: Escalate if request exceeds expected timeframe.\nSearch aliases: enrollment status|application status|enrollment pending"
+  },
+  {
+    "article_id": "ENR-003",
+    "title": "Incorrect Enrollment Information",
+    "page": 4,
+    "chunk_id": "ENR-003-CHUNK-001",
+    "text": "Category: Enrollment\nScenario: Customer says information submitted during enrollment is incorrect.\nProcedure: Verify identity; identify incorrect field; determine whether it can be corrected; document request.\nEscalation: Escalate when field cannot be corrected normally.\nSearch aliases: wrong enrollment information|correct enrollment|update application"
+  },
+  {
+    "article_id": "ENR-004",
+    "title": "Enrollment Cancellation",
+    "page": 4,
+    "chunk_id": "ENR-004-CHUNK-001",
+    "text": "Category: Enrollment\nScenario: Customer asks to cancel a recent enrollment request.\nProcedure: Verify identity/status; determine whether cancellation is permitted; follow cancellation procedure."
+  },
+  {
+    "article_id": "ENR-005",
+    "title": "Plan Change Request",
+    "page": 5,
+    "chunk_id": "ENR-005-CHUNK-001",
+    "text": "Category: Enrollment\nScenario: Customer asks to change from one plan to another.\nProcedure: Verify eligibility and plan-change rules; explain approved options; follow plan-change workflow.\nEscalation: Escalate if requested change is outside allowed process.\nSearch aliases: change plan|switch plan|plan transfer"
+  },
+  {
+    "article_id": "ENR-006",
+    "title": "Enrollment Confirmation",
+    "page": 5,
+    "chunk_id": "ENR-006-CHUNK-001",
+    "text": "Category: Enrollment\nScenario: Customer needs confirmation that enrollment was submitted successfully.\nProcedure: Verify identity; locate record; confirm status; provide approved confirmation details.\nEscalation: Escalate if no record can be found.\nSearch aliases: enrollment confirmation|proof of enrollment|submitted enrollment"
+  },
+  {
+    "article_id": "ESC-001",
+    "title": "Supervisor Escalation",
+    "page": 6,
+    "chunk_id": "ESC-001-CHUNK-001",
+    "text": "Category: Escalations\nScenario: Agent cannot resolve an issue using available knowledge and standard procedures.\nProcedure: Confirm standard troubleshooting; document issue/actions; route to supervisor or SME.\nEscalation: Escalate when authority, access, or a decision outside the agent role is required.\nSearch aliases: supervisor|SME|escalate case|manager help"
+  },
+  {
+    "article_id": "ESC-002",
+    "title": "System Incident Escalation",
+    "page": 6,
+    "chunk_id": "ESC-002-CHUNK-001",
+    "text": "Category: Escalations\nScenario: Required system is unavailable or produces an error that blocks case handling.\nProcedure: Capture error and non-sensitive details; check incident procedure; document impact.\nEscalation: Escalate according to system incident process.\nSearch aliases: system error|system down|outage|application error"
+  },
+  {
+    "article_id": "ESC-003",
+    "title": "Knowledge Gap",
+    "page": 6,
+    "chunk_id": "ESC-003-CHUNK-001",
+    "text": "Category: Escalations\nScenario: Agent cannot find an article that answers a new customer scenario.\nProcedure: Search relevant terms; confirm no applicable article; document question and impact.\nEscalation: Escalate to SME/knowledge team and flag as potential knowledge gap.\nSearch aliases: knowledge gap|no article|new scenario|KB missing"
+  },
+  {
+    "article_id": "ESC-004",
+    "title": "Urgent Escalation",
+    "page": 6,
+    "chunk_id": "ESC-004-CHUNK-001",
+    "text": "Category: Escalations"
+  },
+  {
+    "article_id": "ESC-005",
+    "title": "Conflicting Knowledge Articles",
+    "page": 7,
+    "chunk_id": "ESC-005-CHUNK-001",
+    "text": "Category: Escalations\nScenario: Two approved articles appear to give different instructions.\nProcedure: Check version/effective date; do not choose based on preference; document conflict.\nEscalation: Escalate to knowledge-management/SME team.\nSearch aliases: conflicting articles|different instructions|KB conflict|version conflict"
+  },
+  {
+    "article_id": "ESC-006",
+    "title": "Out-of-Scope Request",
+    "page": 7,
+    "chunk_id": "ESC-006-CHUNK-001",
+    "text": "Category: Escalations\nScenario: Customer asks for an action outside agent responsibilities.\nProcedure: Explain approved options; document request; follow transfer/escalation process.\nEscalation: Escalate or transfer according to ownership.\nSearch aliases: out of scope|transfer|wrong department|unsupported request"
+  },
+  {
+    "article_id": "MEM-001",
+    "title": "Member Authentication",
+    "page": 5,
+    "chunk_id": "MEM-001-CHUNK-001",
+    "text": "Category: Member Support\nScenario: Agent needs to verify identity before discussing account-specific information.\nProcedure: Follow approved authentication questions and verify required identifiers before disclosure.\nEscalation: Escalate if authentication fails or extra verification is required.\nSearch aliases: verify identity|authenticate customer|member verification"
+  },
+  {
+    "article_id": "MEM-002",
+    "title": "Address Update",
+    "page": 5,
+    "chunk_id": "MEM-002-CHUNK-001",
+    "text": "Category: Member Support\nScenario: Customer wants to update a mailing or contact address.\nProcedure: Complete authentication; collect new address; update using approved workflow; confirm submission.\nEscalation: Escalate if address cannot be updated.\nSearch aliases: change address|update address|mailing address"
+  },
+  {
+    "article_id": "MEM-003",
+    "title": "Phone or Email Update",
+    "page": 5,
+    "chunk_id": "MEM-003-CHUNK-001",
+    "text": "Category: Member Support\nScenario: Customer wants to change phone number or email.\nProcedure: Authenticate; collect new contact information; update using approved workflow; confirm update.\nEscalation: Escalate if update fails or extra verification is required.\nSearch aliases: change phone|change email|contact update"
+  },
+  {
+    "article_id": "MEM-004",
+    "title": "Replacement Member Card",
+    "page": 5,
+    "chunk_id": "MEM-004-CHUNK-001",
+    "text": "Category: Member Support\nScenario: Customer requests a replacement member card."
+  },
+  {
+    "article_id": "MEM-005",
+    "title": "General Account Inquiry",
+    "page": 6,
+    "chunk_id": "MEM-005-CHUNK-001",
+    "text": "Category: Member Support\nScenario: Customer asks about an issue that does not clearly match another category.\nProcedure: Authenticate; clarify issue; search approved knowledge base; document interaction.\nEscalation: Escalate if no approved article addresses it.\nSearch aliases: general inquiry|account help|unknown issue"
+  },
+  {
+    "article_id": "MEM-006",
+    "title": "Privacy or Restricted Information",
+    "page": 6,
+    "chunk_id": "MEM-006-CHUNK-001",
+    "text": "Category: Member Support\nScenario: Customer asks for information that may be protected or restricted.\nProcedure: Authenticate; determine whether information may be disclosed; follow privacy procedure.\nEscalation: Escalate requests outside approved disclosure process.\nSearch aliases: privacy|restricted information|protected information"
+  },
+  {
+    "article_id": "QA-001",
+    "title": "Required Verification Missing",
+    "page": 8,
+    "chunk_id": "QA-001-CHUNK-001",
+    "text": "Category: Quality\nScenario: Quality review finds an agent missed a required verification step.\nProcedure: Identify missed verification; document QA finding; provide coaching using approved quality framework.\nEscalation: Escalate compliance-related issues per QA policy.\nSearch aliases: QA failure|verification missed|quality audit|compliance"
+  },
+  {
+    "article_id": "QA-002",
+    "title": "Incorrect Information Provided",
+    "page": 8,
+    "chunk_id": "QA-002-CHUNK-001",
+    "text": "Category: Quality\nScenario: Quality review finds information given by an agent was unsupported by the knowledge base.\nProcedure: Compare response with current article; correct coaching/knowledge issue; document finding.\nEscalation: Escalate if article itself is outdated or conflicting.\nSearch aliases: wrong information|QA defect|incorrect answer|knowledge accuracy"
+  },
+  {
+    "article_id": "QA-003",
+    "title": "Knowledge Article Feedback",
+    "page": 8,
+    "chunk_id": "QA-003-CHUNK-001",
+    "text": "Category: Quality\nScenario: Agent finds an article unclear, outdated, incomplete, or hard to use.\nProcedure: Record article ID; describe issue; provide example scenario; submit feedback.\nEscalation: Escalate immediately if incorrect guidance could affect customers/compliance.\nSearch aliases: article feedback|outdated article|unclear article|KB feedback"
+  },
+  {
+    "article_id": "QA-004",
+    "title": "Knowledge Article Version Check",
+    "page": 8,
+    "chunk_id": "QA-004-CHUNK-001",
+    "text": "Category: Quality\nScenario: Agent needs to determine whether an article is current.\nProcedure: Check version and effective date; use latest approved version; do not rely on unofficial copies.\nEscalation: Escalate if multiple active versions appear.\nSearch aliases: article version|effective date|latest article|outdated KB"
+  }
+]
