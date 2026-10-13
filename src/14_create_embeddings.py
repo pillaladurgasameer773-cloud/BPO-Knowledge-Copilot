@@ -1,14 +1,15 @@
 import json
 import numpy as np
 from sentence_transformers import SentenceTransformer
+from pathlib import Path
 
 
 # ============================================================
 # 1. CONFIGURATION
 # ============================================================
 
-input_path = "../data/article_chunks.json"
-output_path = "../data/article_embeddings.npz"
+input_path = Path(__file__).resolve().parent.parent / "data" / "article_chunks.json"
+output_path = Path(__file__).resolve().parent.parent / "data" / "article_embeddings.npz"
 
 MODEL_NAME = "all-MiniLM-L6-v2"
 

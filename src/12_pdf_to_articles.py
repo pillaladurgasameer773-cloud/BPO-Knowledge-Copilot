@@ -2,14 +2,14 @@ from pypdf import PdfReader
 import re
 import json
 from collections import Counter
+from pathlib import Path
 
 
 # ============================================================
 # 1. CONFIGURATION
 # ============================================================
-
-pdf_path = "../data/BPO_Knowledge_Articles_Gold-1.pdf"
-output_path = "../data/pdf_articles.json"
+pdf_path = Path(__file__).resolve().parent.parent / "data" / "BPO_Knowledge_Articles_Gold-1.pdf"
+output_path = Path(__file__).resolve().parent.parent / "data" / "pdf_articles.json"
 
 EXPECTED_ARTICLES = 44
 

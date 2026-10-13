@@ -1,13 +1,14 @@
 import json
 import re
+from pathlib import Path
 
 
 # ============================================================
 # 1. CONFIGURATION
 # ============================================================
 
-input_path = "../data/pdf_articles.json"
-output_path = "../data/article_chunks.json"
+input_path = Path(__file__).resolve().parent.parent / "data" / "pdf_articles.json"
+output_path = Path(__file__).resolve().parent.parent / "data" / "article_chunks.json"
 
 # Approximate maximum characters per chunk.
 # This is intentionally a starting point, not a permanent rule.
