@@ -1,0 +1,40 @@
+# Python
+_pycache_/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+.venv_clean/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# API keys and credentials
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+# Generated project artifacts
+_pycache_/
+*.py[cod]
+
+# Local model and data caches
+.cache/
+#Generated knowledge-processing files
+
+data/article_chunks.json
+data/article_embeddings.npz
+data/pdf_articles.json
